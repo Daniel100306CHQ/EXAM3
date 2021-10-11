@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Festive', cursive;
+    background: url(../pictures/22268.jpg);
+    border-radius: 10%;
+}
+.main-container{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20%;
+}
+.controls{
+    width: 70%;
+    font-family: 'Festive', cursive;
+    animation-direction: normal;
+       animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    animation-duration: 10s;
+    border-radius: 10%;
+}
+.controls button{
+    margin: 10px;
+    animation-name: colores;
+     animation-iteration-count: infinite;
+    animation-timing-function: linear;
+     animation-duration: 10s;
+
+}
+.controls button h2{
+    font-size: 50px;
+    margin: 1em;
+    font-family: 'Festive', cursive;
+}
+.controls button h5{
+    font-size: 20px;
+    color: black;
+}
+
+@keyframes colores{
+    0%   { background-color: #FFFFFF;}
+    10%   { background-color: #F0FFFF;} 
+    20%   { background-color: #F0FFF0;} 
+    30%   { background-color: #FFF0F5;} 
+    40%   { background-color: #F5F5F5;} 
+    50%   { background-color: #FFFACD;} 
+    60%   { background-color: #E6E6FA;} 
+    70%   { background-color: #B0E0E6;} 
+    80%   { background-color: #ADD8E6;} 
+    90%   { background-color: #DCDCDC;}    
+    100% { background-color: #fff;} 
+}
